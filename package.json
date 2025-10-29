@@ -1,0 +1,20 @@
+{
+  "name": "file-manager",
+  "version": "1.0.0",
+  "description": "node file manager app",
+  "homepage": "https://github.com/Dior1726/node-file-manager#readme",
+  "bugs": {
+    "url": "https://github.com/Dior1726/node-file-manager/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dior1726/node-file-manager.git"
+  },
+  "license": "MIT",
+  "author": "muxammad_909@mail.ru",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  }
+}
