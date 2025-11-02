@@ -1,14 +1,7 @@
 #!/usr/bin/env node
-import fs from "fs";
-import zlib from "zlib";
-import path from "path";
-import crypto from "crypto";
-import fsp from "fs/promises";
-import readline from "readline";
-
 import { pipeline } from "stream";
 import { promisify } from "util";
-import { fileURLToPath } from "url";
+import readline from "readline";
 
 // helpers
 import { getUsername } from "./helpers/get_args.js";
