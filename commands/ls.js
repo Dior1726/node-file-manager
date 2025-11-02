@@ -1,8 +1,7 @@
 import fs from "fs/promises";
 import os from "os";
 import path from "path";
-
-let currentDir = os.homedir();
+import { currentDir } from "../helpers/print_current_dir.js";
 
 export async function ls() {
   try {
