@@ -1,7 +1,10 @@
 import fs from "fs/promises";
+import os from "os";
 import path from "path";
 
-export async function ls(currentDir) {
+let currentDir = os.homedir();
+
+export async function ls() {
   try {
     const items = await fs.readdir(currentDir, { withFileTypes: true });
 
