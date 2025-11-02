@@ -3,7 +3,6 @@ import os from "os";
 export const osInfo = async (flag) => {
   switch (flag) {
     case "--EOL":
-      // Print EOL visibly
       console.log(JSON.stringify(os.EOL));
       break;
     case "--cpus": {
