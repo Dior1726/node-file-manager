@@ -15,6 +15,6 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js -- --username=JohnDoe"
+    "start": "node index.js"
   }
 }
